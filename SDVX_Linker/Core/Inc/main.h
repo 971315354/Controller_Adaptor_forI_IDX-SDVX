@@ -57,22 +57,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define BT_A_Pin GPIO_PIN_1
-#define BT_A_GPIO_Port GPIOA
-#define BT_B_Pin GPIO_PIN_3
-#define BT_B_GPIO_Port GPIOA
-#define BT_C_Pin GPIO_PIN_5
-#define BT_C_GPIO_Port GPIOA
-#define BT_D_Pin GPIO_PIN_7
-#define BT_D_GPIO_Port GPIOA
-#define START_Pin GPIO_PIN_1
-#define START_GPIO_Port GPIOB
 #define USB_EN_Pin GPIO_PIN_12
 #define USB_EN_GPIO_Port GPIOB
-#define FX_L_Pin GPIO_PIN_9
-#define FX_L_GPIO_Port GPIOA
-#define FX_R_Pin GPIO_PIN_4
-#define FX_R_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
