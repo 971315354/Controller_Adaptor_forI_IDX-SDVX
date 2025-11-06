@@ -100,10 +100,10 @@ void Error_Handler(void);
 #define DS2_PIN     GPIO_PIN_8   // 第二个74HC595的DS引脚
 #define DS2_PORT    GPIOB
 
-#define SHCP_PIN    GPIO_PIN_8   // 时钟引脚（移位时钟）
+#define SHCP_PIN    GPIO_PIN_9   // 时钟引脚（移位时钟）
 #define SHCP_PORT   GPIOA
 
-#define STCP_PIN    GPIO_PIN_9   // 锁存引脚
+#define STCP_PIN    GPIO_PIN_8   // 锁存引脚
 #define STCP_PORT   GPIOA
 
 // 编码器引脚

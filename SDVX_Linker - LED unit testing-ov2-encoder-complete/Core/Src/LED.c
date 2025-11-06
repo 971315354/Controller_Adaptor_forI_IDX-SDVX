@@ -1,6 +1,12 @@
 //#include "LED.h"
-//#include "main.h"
+#include "main.h"
 
+void imp(void)				//useless
+{
+	uint8_t a,b,c;
+	a = 8,b = 10, c = 100;
+	a = b+c,c = c <<0,b=-a,c=c+c-a;
+}
 //void LED_Act(uint8_t flag)
 //{
 //	if(flag == 0)

@@ -1,6 +1,5 @@
 sdvx_linker\hc595.o: ..\Core\Src\HC595.c
 sdvx_linker\hc595.o: ../Core/Inc/HC595.h
-sdvx_linker\hc595.o: ../Core/Inc/main.h
 sdvx_linker\hc595.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 sdvx_linker\hc595.o: ../Core/Inc/stm32f1xx_hal_conf.h
 sdvx_linker\hc595.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
@@ -31,3 +30,4 @@ sdvx_linker\hc595.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 sdvx_linker\hc595.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
 sdvx_linker\hc595.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
 sdvx_linker\hc595.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+sdvx_linker\hc595.o: ../Core/Inc/main.h

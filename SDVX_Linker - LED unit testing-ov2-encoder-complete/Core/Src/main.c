@@ -100,7 +100,7 @@ int main(void)
 	MX_TIM3_Init();
     MX_TIM4_Init();
 	Encoder_Init();
-
+	HC595_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -111,8 +111,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  Button_Scan();			//检测按键按下
-	  uint16_t key_state = Read_Keys();		//读取按键状态
-      HC595_Send(key_state);	// 直接将按键状态显示到LED
+	  uint16_t key = Read_Keys();		//读取按键状态
+      HC595_Update(key);	// 直接将按键状态显示到LED
 	  Encoder_Update();			//检测编码器转动
 	  HAL_Delay(DEBOUNCE_DELAY);		//延迟消抖
   }
